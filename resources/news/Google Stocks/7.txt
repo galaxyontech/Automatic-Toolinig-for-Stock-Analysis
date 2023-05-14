@@ -1,0 +1,59 @@
+400tmax
+
+Alphabet Inc. (NASDAQ:GOOG) (NASDAQ:GOOGL) reported both stronger-than-expected sales and profits for the first quarter as the advertising market showed signs of stabilization and cloud continued to churn out double-digit growth.
+
+Google reported first-quarter sales and profits that were higher than expected, as the advertising market showed signs of stabilization and cloud continued to grow by double digits.
+
+Though the enterprise market revealed challenges in terms of cloud adoption as a result of a push for efficiency, I believe Google's results were far superior to what the market is giving the company credit for.
+
+Aside from encouraging signs from the advertising market and robust growth in cloud, Google also announced a $70 billion share repurchase program.
+
+Together with a low earnings valuation, I believe investors have more reasons to be bullish than bearish.
+
+2 Reasons To Buy Google: Ad Market Stabilization And Cloud Growth
+
+The advertising market is showing credible signs of recovery, and the worst may already be behind Google.
+
+Google's total sales increased 3% YoY to $69.8 billion, surprising many investors who expected weak results following Google's much-discussed problems selling digital ads to its customers. In the last year, the decline in ad sales has resulted in both slower growth and a significant drop in Google's valuation. Google's advertising sales in 1Q-23 were roughly the same as last year, at around $54.5 billion, but they did not fall, as many investors feared.
+
+Google's cloud growth was also impressive. The company generated $7.5 billion in sales, representing a 28% increase YoY. Taking into account the enterprise market's spending headwinds, Google's sales growth is still fantastic and is most likely solely responsible for the company's 1Q-23 sales beat.
+
+Amazon's AWS business grew by only 16% YoY, but it generated roughly three times the revenue of Google Cloud. If Google's cloud enterprise continues to perform well, it could be a $35 billion business (in terms of sales) by the end of the year.
+
+Revenues (Alphabet Inc)
+
+Despite strong cloud results in 1Q-23, Google still faces a challenge in this area: With overall cloud growth slowing, enterprise spending cuts could create a more difficult pricing environment for cloud computing companies, weighing on profitability.
+
+With that said, a YoY growth rate of nearly 30% is fantastic, and I believe that broad-based adoption of artificial intelligence, particularly in the enterprise sector, could be a driver of strong cloud sales growth for Google in the future.
+
+AI applications necessitate massive processing power, and AWS and Google's cloud computing platforms already provide machine learning products to their enterprise customers. As businesses adopt cloud platforms to generate content and increase productivity, generative AI could be a huge growth driver for Google Cloud.
+
+Moving forward, adoption of AI in the enterprise sector could be a potent driver of Google's cloud growth that may also offset any ongoing weakness in digital ad sales. With growth slowing in advertising, I think the market may underestimate Google's cloud growth potential, particularly if companies endorse the AI trend more broadly.
+
+Google's stock price weakness, in my view, is directly related to weaker growth in digital advertising as well as cloud computing. While cloud might grow slower in the short-term as companies adjust their spending, I think that Google's cloud computing business is set for long-term growth which investors presently don't seem to appreciate.
+
+What investors also may not appreciate is that Google is growing faster than AWS which implies that Google might be able to grow its market share in the cloud computing market and catch up to Amazon.
+
+Valuation Implies High Margin Of Safety
+
+Considering the recent market volatility, I value a well-managed technology company with significant earnings potential and an essential monopoly in the online search market. Google has an 89% market share in online search, putting the company in the lead when it comes to placing online search ads.
+
+The market currently forecasts Google profits of $6.20 per share in 2024, implying a 17% YoY growth rate. Google's sales forecast for next year is $332.7 billion, representing 11% YoY growth. Thus, Google's overall growth is expected to be modest, but I believe there is room for upside in estimates due to a potential recovery in the digital ad market.
+
+Google has a P/E ratio of 17x based on estimated profits of $6.20 per share, which I don't think is a high earnings multiple for a company that is highly profitable (Google made $15 billion in profits in 1Q-23) and is expected to grow sales by double digits next year.
+
+Google Has More Upside Potential Than Downside Risk
+
+In my opinion, the risk/reward relationship with Google is very favorable because I believe Google's raw earnings power and recently announced $70 billion share repurchase protect the stock from steep valuation haircuts.
+
+Despite the fact that Google has not increased its share repurchase authorization for 2022, Google's risks are primarily related to a decline in digital ad and enterprise cloud spending.
+
+My Conclusion
+
+I am still very bullish on Google following the company's 1Q-23 results. Google's search business is stable, and cloud is still growing by double digits. Google Cloud is also growing much faster than AWS and has the potential to overtake Amazon's dominance in the cloud computing market.
+
+In the short term, spending cuts and a desire to drive profitability in the enterprise market may continue to be a challenge for the market's three largest cloud computing providers: Amazon Web Services (AWS), Microsoft Azure, and Google Cloud.
+
+Having said that, I believe Google will experience strong cloud growth if businesses feel comfortable making more aggressive investments in artificial intelligence.
+
+Google remains a Strong Buy, with significant earnings potential, double-digit cloud growth, $70 billion set aside for share repurchases, and a low 17x P/E ratio.
