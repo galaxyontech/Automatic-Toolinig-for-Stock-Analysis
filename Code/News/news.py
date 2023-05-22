@@ -9,15 +9,18 @@ class New:
     link:str
     image_link: str 
 
-    def __init__(self) -> None:
-        self.news_id = None 
-        self.title = None  
-        self.media = None 
-        self.date = None  
-        self.datetime = None  
-        self.description = None 
-        self.link = None 
-        self.image_link = None  
+    def __init__(self,news_id, title, media, date , datetime, description, link, image_link,text) -> None:
+        self.title = title
+        self.media = media
+        self.date = date
+        self.datetime = datetime
+        self.description = description
+        self.link = link
+        self.image_link = image_link
+        self.new_id = ""
+        self.text = text
+
+
 
     def __str__(self) -> str:
         string_format = f"""
