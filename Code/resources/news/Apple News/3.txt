@@ -1,0 +1,13 @@
+Since updating to watchOS 9.5, some Apple Watch owners have been noticing an unusual green tint to their watch display when accessing certain UI elements, based on complaints shared on Reddit and the MacRumors Forums.
+
+Image of green tint appearing on the left, from Redditor whosyourdaddy
+
+Almost all of the models affected are Apple Watch Series 8 and older devices, with earlier models seemingly faring worse. Users afflicted with the issue say that the green tint is visible on the passcode input screen, when accessing the Control Center, and when pulling down notifications. Based on the majority of reports, fewer Apple Watch SE and Apple Watch Ultra models are affected by the issue.
+
+Some have suggested that Apple may have intentionally added the tint, but this seems unlikely given that most users agree that it is uncharacteristically ugly and looks out of place. One user described it as looking like a "washed out LCD" screen rather than the pure OLED blacks they are used to seeing on their watch.
+
+It's not entirely clear what's going on, but according to user reports, the weird tint has been popping up since last week's watchOS 9.5 update, suggesting it's a software issue rather than anything hardware related. Some people have been able to get the tint to go away after restarting, but others have not had the same success.
+
+Apple has fixed similar color tint issues on iPhones in the past that were caused by a software bug. If this is indeed a software problem, Apple should be able to address the issue in a future watchOS update. watchOS 9.6 is in testing right now, but it's not yet clear if that removes the tint.
+
+(Thanks, Alex!)

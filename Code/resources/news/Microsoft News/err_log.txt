@@ -1,0 +1,2 @@
+Article `download()` failed with HTTPConnectionPool(host='www.itnewsonline.com', port=80): Read timed out. (read timeout=7) on URL http://www.itnewsonline.com/PRNewswire/Microsoft-Cyber-Signals-report-highlights-spike-in-cybercriminal-activity-around-business-email-compromise/921561
+--------------------------

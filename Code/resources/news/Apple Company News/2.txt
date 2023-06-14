@@ -1,0 +1,71 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+NEW YORK, June 1 (Reuters) - Meta Platforms (META.O) CEO Mark Zuckerberg on Thursday revealed the company's next generation mixed reality headset, the Quest 3, as the company braces for Apple to potentially reshape a nascent market that Meta has dominated so far.
+
+Priced starting at $499, the device will be 40% thinner than the company's previous headset and feature color mixed reality, which combines augmented and virtual reality (AR/VR) elements, Zuckerberg said in an Instagram post ahead of Meta's annual gaming conference.
+
+loading
+
+Meta also said it would lower the prices of its existing Quest 2 headsets, while adding performance upgrades to those devices aimed at delivering a smoother user experience.
+
+The Quest 3 will have a new Qualcomm chipset with twice the graphics performance as the Quest 2, Zuckerberg said. He said the device would launch in the autumn and promised more details at the company's annual AR/VR conference on Sept. 27.
+
+Zuckerberg's announcement came less than a week before tech rival Apple (AAPL.O) was expected to unveil its first mixed reality device, a high-end product with a price point around $3,000, according to a Bloomberg report.
+
+Meta's Quest 2 and Quest Pro devices comprised nearly 80% of the 8.8 million virtual reality headsets sold in 2022, according to an estimate by market research firm IDC.
+
+Far behind in second place at 10% market share was the Pico device by Chinese-owned ByteDance, which also owns social media competitor TikTok.
+
+Still, despite its dominance, Meta has struggled to sell its vision of an immersive "metaverse" of interconnected virtual worlds and expand the market for its devices beyond the niche of the gaming community.
+
+The company classified eight of the 10 most popular apps on its Quest store as being in the gaming category, according to a Reuters count.
+
+After a burst of interest during the pandemic, headset sales tumbled in the first quarter of this year, with the overall AR/VR headset market declining 54.4% year over year.
+
+Revenue from Meta's Reality Labs segments, which includes headset sales, declined 50% in the most recent quarter compared to the year prior.
+
+That puts Meta well behind on a trajectory once imagined for the unit. One Meta executive predicted in 2018 that the company's metaverse would reach 100 million hardware units within a decade, half of which would be Meta devices.
+
+"Between now and the end of the year, there will be a slowness," said Jitesh Ubrani, a research manager who tracks the virtual reality market at IDC. "VR to date has been largely built around gaming. And I think gaming will still remain the dominant use case even going forward."
+
+Even in the gaming market Meta is threatened by Sony, which dominates the console market with the PS5. Sony released its own second-generation headset dedicated to games, the PS VR2, in February and has significant developer support.
+
+Meta appeared to be leaning into that market for now by pairing its Quest 3 announcement with its annual gaming showcase, where the company teased new ways users could slay vampires and outwit evil robots in upcoming releases.
+
+In March, Meta cut the prices of most of its existing Quest headsets in hopes of stirring demand, after raising the price of its entry-level Quest 2 128 GB version in July 2022.
+
+Its high-end Meta Quest Pro now retails for about $1,000, down from a launch price of $1,500, and the Quest 2's 256 GB version now starts at about $430, down from $500.
+
+The company said on Thursday that it would lower the Quest 2 prices once again starting June 4, with the entry-level device dropping back to its original price tag of $300 and the 256-GB version falling to $350.
+
+To engage a more mass audience, Zuckerberg in recent years has made overtures to the fitness world, posting videos of himself using Meta devices while fencing with Olympic medalists and trading punches with mixed martial arts fighters.
+
+He won a battle with U.S. antitrust regulators to acquire the app developer behind VR fitness app Supernatural. During the trial, government lawyers showed evidence that Meta executives had identified fitness as a way to expand VR use beyond its existing fan base of mostly young male gamers.
+
+Zuckerberg also built out productivity tools to market the Quest headsets as virtual offices, including a partnership with Microsoft to bring apps like Teams and Outlook to the devices.
+
+Reporting by Katie Paul; Additional reporting by Yuvraj Malik and Stephen Nellis; Editing by Lisa Shumaker
+
+
+
+
+
+
+
+
+
+
+
+Our Standards: The Thomson Reuters Trust Principles.

@@ -1,0 +1,43 @@
+Microsoft Cyber Signals report highlights spike in cybercriminal activity around business email compromise
+
+Copyright 2023 PR Newswire. All Rights Reserved2023-05-22
+
+38% increase in Cybercrime-as-a-Service targeting business email observed between 2019 and 2022
+
+35 million business email compromise attempts, with an average of 156,000 attempts daily, detected and investigated by Microsoft Threat Intelligence between April 2022 and April 2023
+
+SINGAPORE, May 22, 2023 /PRNewswire/ -- Microsoft has released its fourth edition of Cyber Signals, highlighting a surge in cybercriminal activity around business email compromise (BEC), the common tactics employed by BEC operators, and how enterprises can defend against these attacks.
+
+Key insights shared in this edition of Cyber Signals, a cyberthreat intelligence brief spotlighting security trends and insights gathered from Microsoft's 43 trillion daily security signals and 8,500 security experts, include:
+
+Between April 2022 and April 2023 , Microsoft Threat Intelligence detected and investigated 35 million BEC attempts with an average of 156,000 attempts daily . [1]
+
+and , Microsoft Threat Intelligence detected and investigated . Microsoft also observed a 38% increase in Cybercrime-as-a-Service targeting business email between 2019 and 2022. One of such services is BulletProftLink that creates industrial-scale malicious mail campaigns, which sells end-to-end service including templates, hosting, and automated services for BEC .[ 1]
+
+Instead of exploiting vulnerabilities in unpatched devices, BEC operators seek to exploit the daily sea of e-mail traffic and other messages to lure victims into providing financial information or taking direct action like unknowingly sending funds to money mule accounts that help criminals perform fraudulent money transfers. Threat actors' BEC attempts can take many forms such as phone calls, text messages, e-mails, or social media outreach.
+
+While threat actors have created specialized tools to facilitate BEC, including phishing kits and lists of verified email addresses for targeting C-Suite leaders, accounts payable leads and other specific roles, there are methods that enterprises can employ to pre-empt attacks and mitigate risk.
+
+Vasu Jakkal, corporate vice president, security, compliance, identity, and management at Microsoft, said: "BEC attacks offer a great example of why cyber risk needs to be addressed in a cross-functional way with IT, compliance and cyber risk officers at the table alongside business executives and leaders, finance employees, human resource managers and others with access to employee records. While we must enhance existing defenses through AI capabilities and phishing protection, enterprises also need to train employees to spot warning signs to prevent BEC attacks."
+
+To protect against BEC attacks, businesses should leverage cloud apps that utilize AI capabilities to enhance defenses, adding advanced phishing protection and suspicious forwarding detection. Crucially, businesses need to secure identities to prohibit lateral movement by controlling access to apps and data with Zero Trust and automated identity governance. Additionally, adopting a secure payment platform can reduce the risk of fraudulent activity by switching from emailed invoices to a system specifically designed to authenticate payments. Furthermore, continuous employee education plays a vital role in equipping them to spot fraudulent and malicious e-mails, such as a mismatch in domain and email addresses, as well as understanding the potential risks and costs associated with successful BEC attacks.
+
+To learn more about the threat of BEC, read the fourth edition of Cyber Signals today. To learn more about Microsoft Security solutions and keep up with expert coverage on security matters, visit the Microsoft Security website and Microsoft Security blog.
+
+For more information, please contact:
+
+Simran Singh Sethi
+
+Edelman (Partner Agency for Microsoft Asia)
+
+Ernest Lee / Farhansyah Musa
+
+EdelMSFTCorp@edelman.com
+
+Note to editors: For more information, news and perspectives from Microsoft, please visit the Microsoft News Center at http://news.microsoft.com/. Web links, telephone numbers and titles were correct at time of publication, but may have changed. For additional assistance, journalists and analysts may contact Microsoft's Rapid Response Team or other appropriate contacts listed at Microsoft Public Relations Contacts - Stories.
+
+[1] Methodology: For snapshot data, Microsoft platforms including Microsoft Defender for IoT, Microsoft Threat Intelligence Center and Microsoft Defender Threat Intelligence provided anonymized data on device vulnerabilities, such as configuration states and versions, and data on threat activity on components and devices. In addition, researchers used data from public sources, such as the National Vulnerability Database (NVD) and Cybersecurity & Infrastructure Security Agency (CISA). The cover stat is based on Microsoft engagements in 2022. Control systems in critical environments include electronic or mechanical devices which utilize control loops for improved production, efficiency, and safety.
+
+View original content to download multimedia:https://www.prnewswire.com/apac/news-releases/microsoft-cyber-signals-report-highlights-spike-in-cybercriminal-activity-around-business-email-compromise-301830370.html
+
+SOURCE Microsoft Asia

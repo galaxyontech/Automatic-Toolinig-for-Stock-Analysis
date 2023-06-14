@@ -1,0 +1,101 @@
+{
+    "0.txt": {
+        "title": "",
+        "media": "",
+        "date": "",
+        "datetime": NaN,
+        "desc": "",
+        "link": "https://support.google.com/websearch/answer/106230?hl=en-DE",
+        "img": ""
+    },
+    "1.txt": {
+        "title": "Apple shared its very first App Store transparency report",
+        "media": "Android Headlines",
+        "date": "9 mins ago",
+        "datetime": "2023-05-22 14:42:18.896228",
+        "desc": "Apple has published its App Store transparency report for the first time ever. In that two-page document, Apple revealed some really interesting.",
+        "link": "https://www.androidheadlines.com/2023/05/apple-first-app-store-transparency-report.html",
+        "img": "data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+    },
+    "2.txt": {
+        "title": "Bernstein skeptical that Apple India will follow China growth By Investing.com",
+        "media": "Investing.com",
+        "date": "7 mins ago",
+        "datetime": "2023-05-22 14:44:18.905348",
+        "desc": "Bernstein analysts are skeptical that Apple's (NASDAQ:AAPL) business in India will necessarily follow China's growth trajectory.",
+        "link": "https://in.investing.com/news/bernstein-skeptical-that-apple-india-will-follow-china-growth-432SI-3654249",
+        "img": "data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+    },
+    "3.txt": {
+        "title": "Some Apple Watch Users Complain of Odd Green Screen Tint Following watchOS 9.5 Update",
+        "media": "MacRumors",
+        "date": "1 mins ago",
+        "datetime": "2023-05-22 14:50:18.913917",
+        "desc": "Since updating to watchOS 9.5, some Apple Watch owners have been noticing an unusual green tint to their watch display when accessing certain UI...",
+        "link": "https://www.macrumors.com/2023/05/22/apple-watch-green-tint-watchos-9-5/",
+        "img": "data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+    },
+    "4.txt": {
+        "title": "New Zealand's apple production and exports to hit \u201crecord low\u201d in 2023",
+        "media": "Fresh Fruit Portal",
+        "date": "0 mins ago",
+        "datetime": "2023-05-22 14:51:18.921851",
+        "desc": "New Zealand's apple production is projected to drop significantly due to significant crop damage from Cyclone Gabrielle.",
+        "link": "https://www.freshfruitportal.com/news/2023/05/22/new-zealands-apple-production-and-exports-to-hit-record-low-in-2023/",
+        "img": "data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+    },
+    "5.txt": {
+        "title": "Micron, Meta Platforms, Apple fall premarket; DraftKings, PacWest rise By Investing.com",
+        "media": "Investing.com",
+        "date": "3 mins ago",
+        "datetime": "2023-05-22 14:48:18.929358",
+        "desc": "Micron (NASDAQ:MU) stock fell 4.3% after China prohibited major local infrastructure operators from purchasing chips made by the U.S. semiconductor firm.",
+        "link": "https://www.investing.com/news/stock-market-news/micron-meta-platforms-apple-fall-premarket-draftkings-pacwest-rise-3087734",
+        "img": "data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+    },
+    "6.txt": {
+        "title": "Apple stock down as analysts cut on macro headwinds that are hurting iPhone demand By Investing.com",
+        "media": "Investing.com",
+        "date": "9 mins ago",
+        "datetime": "2023-05-22 14:42:18.936574",
+        "desc": "Apple (NASDAQ:AAPL) shares trade 1% lower in pre-open Monday after Loop Capital analysts downgraded to Hold from Buy. The analysts' price target implies an...",
+        "link": "https://in.investing.com/news/apple-stock-down-as-analysts-cut-on-macro-headwinds-that-are-hurting-iphone-demand-432SI-3654178",
+        "img": "data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+    },
+    "7.txt": {
+        "title": "Apple Arcade Launching Series of Updates to its Games, Including \u2018What the Car?\u2019",
+        "media": "iPhone in Canada",
+        "date": "1 hour ago",
+        "datetime": "2023-05-22 13:51:18.974226",
+        "desc": "This weekend, a collection of games available on Apple Arcade received new updates bringing additional content to play and experience, including What the...",
+        "link": "https://www.iphoneincanada.ca/2023/05/22/apple-arcade-launching-updates/",
+        "img": "data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+    },
+    "8.txt": {
+        "title": "Top 7 Apple accessibility features: Enhancing accessibility for users with disabilities",
+        "media": "News Heads",
+        "date": "1 hour ago",
+        "datetime": "2023-05-22 13:51:19.008761",
+        "desc": "Apple has introduced a number of new accessibility features for customers who are handicapped or visually impaired, taking a page out of Google's book.",
+        "link": "https://www.newsheads.in/tech/news/top-7-apple-accessibility-features-enhancing-accessibility-for-users-with-disabilities-article-69929",
+        "img": "data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+    },
+    "9.txt": {
+        "title": "After 35% stock rally this year, Apple's mega goal - $3 trillion in market cap",
+        "media": "Hindustan Times",
+        "date": "1 hour ago",
+        "datetime": "2023-05-22 13:51:19.043460",
+        "desc": "Apple's earnings and revenue were better than expected, thanks to a rebound in the iPhone and growth in its Services business.",
+        "link": "https://www.hindustantimes.com/business/after-35-stock-rally-this-year-apples-mega-goal-3-trillion-in-market-cap-101684752786829.html",
+        "img": "data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+    },
+    "10.txt": {
+        "title": "Wistron to exit Apple India business, here\u2019s why",
+        "media": "Times of India",
+        "date": "1 hour ago",
+        "datetime": "2023-05-22 13:51:19.077161",
+        "desc": "Taiwan-based Wistron, one of the three global contract manufacturers for Apple, is selling its Kolar iPhone assembly plant to the Tata Group and exiti.",
+        "link": "https://m.timesofindia.com/gadgets-news/wistron-to-exit-apple-india-business-heres-why/articleshow/100420645.cms",
+        "img": "data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+    }
+}

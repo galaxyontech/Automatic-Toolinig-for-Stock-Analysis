@@ -1,0 +1,32 @@
+Article `download()` failed with 403 Client Error: Forbidden for url: https://in.investing.com/news/apple-stock-down-as-analysts-cut-on-macro-headwinds-that-are-hurting-iphone-demand-432SI-3654178 on URL https://in.investing.com/news/apple-stock-down-as-analysts-cut-on-macro-headwinds-that-are-hurting-iphone-demand-432SI-3654178
+--------------------------
+Article `download()` failed with HTTPSConnectionPool(host='game-news24.com', port=443): Read timed out. (read timeout=7) on URL https://game-news24.com/2023/05/22/apple-allegedly-restrictions-its-internal-use-of-chatgpt/
+--------------------------
+Article `download()` failed with 403 Client Error: Forbidden for url: https://www.investing.com/news/stock-market-news/micron-meta-platforms-apple-fall-premarket-draftkings-pacwest-rise-3087734 on URL https://www.investing.com/news/stock-market-news/micron-meta-platforms-apple-fall-premarket-draftkings-pacwest-rise-3087734
+--------------------------
+Article `download()` failed with 403 Client Error: Forbidden for url: https://in.investing.com/news/apple-stock-down-as-analysts-cut-on-macro-headwinds-that-are-hurting-iphone-demand-432SI-3654178 on URL https://in.investing.com/news/apple-stock-down-as-analysts-cut-on-macro-headwinds-that-are-hurting-iphone-demand-432SI-3654178
+--------------------------
+Article `download()` failed with HTTPSConnectionPool(host='game-news24.com', port=443): Read timed out. (read timeout=7) on URL https://game-news24.com/2023/05/22/apple-allegedly-restrictions-its-internal-use-of-chatgpt/
+--------------------------
+Article `download()` failed with 403 Client Error: Forbidden for url: https://in.investing.com/news/bernstein-skeptical-that-apple-india-will-follow-china-growth-432SI-3654249 on URL https://in.investing.com/news/bernstein-skeptical-that-apple-india-will-follow-china-growth-432SI-3654249
+--------------------------
+Article `download()` failed with 403 Client Error: Forbidden for url: https://in.investing.com/news/apple-stock-down-as-analysts-cut-on-macro-headwinds-that-are-hurting-iphone-demand-432SI-3654178 on URL https://in.investing.com/news/apple-stock-down-as-analysts-cut-on-macro-headwinds-that-are-hurting-iphone-demand-432SI-3654178
+--------------------------
+Article `download()` failed with 403 Client Error: Forbidden for url: https://uk.investing.com/news/stock-market-news/bernstein-skeptical-that-apple-india-will-follow-china-growth-432SI-3027989 on URL https://uk.investing.com/news/stock-market-news/bernstein-skeptical-that-apple-india-will-follow-china-growth-432SI-3027989
+--------------------------
+Article `download()` failed with 403 Client Error: Forbidden for url: https://www.investing.com/news/stock-market-news/micron-meta-platforms-apple-fall-premarket-draftkings-pacwest-rise-3087734 on URL https://www.investing.com/news/stock-market-news/micron-meta-platforms-apple-fall-premarket-draftkings-pacwest-rise-3087734
+--------------------------
+Article `download()` failed with 403 Client Error: Forbidden for url: https://in.investing.com/news/apple-stock-down-as-analysts-cut-on-macro-headwinds-that-are-hurting-iphone-demand-432SI-3654178 on URL https://in.investing.com/news/apple-stock-down-as-analysts-cut-on-macro-headwinds-that-are-hurting-iphone-demand-432SI-3654178
+--------------------------
+Article `download()` failed with 403 Client Error: Forbidden for url: https://uk.investing.com/news/stock-market-news/bernstein-skeptical-that-apple-india-will-follow-china-growth-432SI-3027989 on URL https://uk.investing.com/news/stock-market-news/bernstein-skeptical-that-apple-india-will-follow-china-growth-432SI-3027989
+--------------------------
+Article `download()` failed with 403 Client Error: Forbidden for url: https://www.investing.com/news/stock-market-news/micron-meta-platforms-apple-fall-premarket-draftkings-pacwest-rise-3087734 on URL https://www.investing.com/news/stock-market-news/micron-meta-platforms-apple-fall-premarket-draftkings-pacwest-rise-3087734
+--------------------------
+Article `download()` failed with 403 Client Error: Forbidden for url: https://in.investing.com/news/apple-stock-down-as-analysts-cut-on-macro-headwinds-that-are-hurting-iphone-demand-432SI-3654178 on URL https://in.investing.com/news/apple-stock-down-as-analysts-cut-on-macro-headwinds-that-are-hurting-iphone-demand-432SI-3654178
+--------------------------
+Article `download()` failed with 403 Client Error: Forbidden for url: https://in.investing.com/news/bernstein-skeptical-that-apple-india-will-follow-china-growth-432SI-3654249 on URL https://in.investing.com/news/bernstein-skeptical-that-apple-india-will-follow-china-growth-432SI-3654249
+--------------------------
+Article `download()` failed with 403 Client Error: Forbidden for url: https://www.investing.com/news/stock-market-news/micron-meta-platforms-apple-fall-premarket-draftkings-pacwest-rise-3087734 on URL https://www.investing.com/news/stock-market-news/micron-meta-platforms-apple-fall-premarket-draftkings-pacwest-rise-3087734
+--------------------------
+Article `download()` failed with 403 Client Error: Forbidden for url: https://in.investing.com/news/apple-stock-down-as-analysts-cut-on-macro-headwinds-that-are-hurting-iphone-demand-432SI-3654178 on URL https://in.investing.com/news/apple-stock-down-as-analysts-cut-on-macro-headwinds-that-are-hurting-iphone-demand-432SI-3654178
+--------------------------

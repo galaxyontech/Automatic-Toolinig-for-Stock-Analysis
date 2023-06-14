@@ -24,7 +24,8 @@ def clusering():
     X_tfidf = vectorizer.fit_transform(articles)
     print(type(X_tfidf))
     print(f"vectorization done in {time() - t0:.3f} s")
-    print(X_tfidf)
+    print(f"n_samples: {X_tfidf.shape[0]}, n_features: {X_tfidf.shape[1]}")
+
     from sklearn.cluster import KMeans
 
 

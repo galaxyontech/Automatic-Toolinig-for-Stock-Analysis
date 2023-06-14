@@ -1,0 +1,13 @@
+Samsung is not going to ditch Google in favour of Microsoft's Bing as its default search engine anytime soon, says a report by The Wall Street Journal, citing sources. The South Korean tech giant has suspended an internal review that looked into replacing Google with Bing on its web-browsing app, which comes pre-installed on the company's smartphones.
+
+Google earns an estimated $3 billion in annual revenue from the Samsung contract, according to a last month's report by the New York Times.
+
+Earlier in April, several reports suggested that Samsung was considering switching from Google to Bing as its default search engine on Galaxy phones. Previously, Samsung's decision to switch was reportedly influenced by Microsoft's Bing AI. At the time, the competition for AI dominance was fierce, and the tech giant was determined not to fall behind. Despite the unveiling of Google's Bard AI, it failed to demonstrate any immediate promise due to its lack of refinement.
+
+However, it remains unclear why the company changed its decision, but one possibility could be attributed to Google's recent demonstration of its impressive AI game during the Google I/O 2023 event.
+
+Meanwhile, as part of the collaboration with Android device manufacturers, Google is working to prevent random app killings in the background, and Samsung is the first to participate, which will benefit Galaxy phone owners when One UI 6.0 based on Android 14 launches later this year.
+
+The collaboration aims to address one of Android's long-standing annoyances -- "restrictions on foreground services and background work" across devices.
+
+To recall, earlier in April, reports said Google may be staring at major competition from Microsoft-owned Bing as smartphone giant Samsung is considering replacing Google Search in favour of Bing and ChatGPT. Google was reportedly in "panic" since Samsung started considering bidding adieu to Google as the default search engine for its handsets in March, a report by The New York Times said.

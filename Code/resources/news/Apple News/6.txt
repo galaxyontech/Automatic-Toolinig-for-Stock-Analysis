@@ -1,0 +1,60 @@
+Top 7 Apple accessibility features: Enhancing accessibility for users with disabilities (Image: pixabay.com)
+
+Delhi : Apple has introduced a number of new accessibility features for customers who are handicapped or visually impaired, taking a page out of Google's book. The Cupertino behemoth has unveiled features like Personal Voice, Live Speech, Assistive Access, and Live Captions, among others. They will be available on iPhone, iPad, and Mac devices later this year, and they might also aid the disabled-friendly Apple smart home environment.
+
+The declaration precedes the Worldwide Developers Conference (WWDC), which begins on June 5 to coincide with Global Accessibility Awareness Day (May 18). To create these features, Apple used the power of technology, software, and machine intelligence.
+
+
+
+On the occasion of Global Accessibility Day, Apple released new accessibility features Awareness Day
+
+Apple may have more features overall, but it lags behind Google when it comes to inclusion. Not any more, thanks to the introduction of various Apple accessibility technologies such as assisted access, live captions, door detections, and more. Here are seven of the finest Apple accessibility improvements that have been announced:
+
+
+
+1) Assistive Access
+
+One of Apple's accessibility technologies, Assistive Access, will make using an iPhone or iPad easier for those with cognitive limitations. It has a combined app for phone and FaceTime, and the user interface has large text and brightly coloured buttons. Stock applications including Messages, Cameras, Photos, and Music have the same user interface.
+
+
+
+People with cognitive impairments will find it simpler to exchange material, communicate to friends, and listen to music thanks to assistive access. It is undoubtedly one of the greatest accessibility features offered by Apple. The function, according to the business, was developed in response to input from "individuals with cognitive disabilities and their trusted supporters."
+
+
+
+2) Live Speech
+
+One of the most ingenious Apple accessibility tools, Live Speech, allows users to enter what they wish to say during a phone conversation or FaceTime call and have it read aloud. It is also handy in private chats. Those who have lost their ability to talk or who are unable to speak at all will benefit from this feature.
+
+
+
+Users may also store frequently used phrases as templates, allowing them to talk fast or intervene during a dynamic conversation with a group of individuals. It will undoubtedly assist thousands of people who lack speech in participating in conversations with their loved ones and without feeling left out.
+
+
+
+3) Personal Voice
+
+Personal Voice, a ground-breaking addition to Apple's lineup of accessibility capabilities, is intended to support those who run the danger of progressively losing their ability to speak. For instance, people with amyotrophic lateral sclerosis (ALS) or other illnesses like it gradually lose their capacity to speak. They can easily and safely create a voice that sounds just like themselves using Personal Voice.
+
+
+
+On their iPhone or iPad, users must record a 15-minute audio clip in which they read out a randomly selected series of written questions. Because the function employs on-device machine learning to safeguard and protect users' personal information, the business guarantees that it is safe to use. Personal Voice effortlessly connects with Live Speech, allowing users to speak with their loved ones in their own voice.
+
+4) Speak and Point
+
+For people with vision impairment, Point and Speak will be an accessibility function in Magnifier's Detection Mode. Users must aim the iPhone or iPad, especially the LiDAR scanner, at items and appliances having text labels so that they may be read aloud. The functionality makes advantage of the device's machine learning capabilities to recognise user hand movement and interpret the text on the button being pressed.
+
+
+
+Point and Speak, one of the greatest Apple accessibility tools, works with VoiceOver as well as features like People Detection and Image Descriptions since it's incorporated into Magnifier. It will aid visually challenged people in navigating their physical world. English, French, Italian, German, Spanish, Portuguese, Chinese, Cantonese, Korean, Japanese, and Ukrainian are now supported by the function.
+
+5) Door detection for blind individuals
+
+To aid visually impaired persons in navigating their environment, the door detection function will operate in conjunction with the already-existing persons Detection and Image Descriptions modes. It is intended to locate the door and show the user how close they are to it as they get close to one.
+
+
+
+The function even informs users of the door's characteristics, such as whether it is open or closed. If the door is closed, the user will be instructed on how to open it, including whether to push the door open or use a handle or door knob. It can also read any writing or descriptions on the door, such as the room number or other critical directives such as staff only, no entrance, and so on.
+
+However, in order for the functionality to work, a LiDAR scanner is required. As a result, it is only accessible on iPhone and iPad Pro models, including the most recent iPhone 14 series models — 14 Pro and 14 Pro Max — which are among the most popular Apple gadgets.
+

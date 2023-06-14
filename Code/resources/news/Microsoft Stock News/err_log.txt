@@ -1,0 +1,14 @@
+Article `download()` failed with HTTPSConnectionPool(host='www.defenseworld.net', port=443): Read timed out. (read timeout=7) on URL https://www.defenseworld.net/2023/05/22/retirement-systems-of-alabama-reduces-stock-position-in-microsoft-co-nasdaqmsft.html
+--------------------------
+Article `download()` failed with HTTPSConnectionPool(host='www.defenseworld.net', port=443): Read timed out. (read timeout=7) on URL https://www.defenseworld.net/2023/05/22/microsoft-co-nasdaqmsft-shares-acquired-by-transatlantique-private-wealth-llc.html
+--------------------------
+Article `download()` failed with HTTPSConnectionPool(host='www.defenseworld.net', port=443): Read timed out. (read timeout=7) on URL https://www.defenseworld.net/2023/05/22/wrapmanager-inc-grows-position-in-microsoft-co-nasdaqmsft.html
+--------------------------
+Article `download()` failed with HTTPSConnectionPool(host='www.defenseworld.net', port=443): Read timed out. (read timeout=7) on URL https://www.defenseworld.net/2023/05/22/widmann-financial-services-inc-acquires-286-shares-of-microsoft-co-nasdaqmsft.html
+--------------------------
+Article `download()` failed with HTTPSConnectionPool(host='www.defenseworld.net', port=443): Read timed out. (read timeout=7) on URL https://www.defenseworld.net/2023/05/22/ropes-wealth-advisors-llc-has-27-17-million-stock-position-in-microsoft-co-nasdaqmsft.html
+--------------------------
+Article `download()` failed with HTTPSConnectionPool(host='www.defenseworld.net', port=443): Read timed out. (read timeout=7) on URL https://www.defenseworld.net/2023/05/22/heritage-investors-management-corp-boosts-stock-position-in-microsoft-co-nasdaqmsft.html
+--------------------------
+Article `download()` failed with HTTPSConnectionPool(host='www.defenseworld.net', port=443): Read timed out. (read timeout=7) on URL https://www.defenseworld.net/2023/05/22/microsoft-co-nasdaqmsft-shares-sold-by-brandywine-oak-private-wealth-llc.html
+--------------------------

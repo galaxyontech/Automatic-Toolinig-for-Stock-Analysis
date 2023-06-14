@@ -1,0 +1,21 @@
+Apple has published its App Store transparency report for the first time ever. In that two-page document, Apple revealed some really interesting information that we’ll talk about here.
+
+Apple has published its very first App Store transparency report
+
+First and foremost, some of you may be wondering how many apps were in the App Store at the end of last year. The answer is… 1,783,232. The company actually rejected almost as many App Store submissions, believe it or not, 1,679,694, to be exact.
+
+Another interesting tidbit is that Apple reviewed 6,101,913 app submissions last year. Do note that these numbers include updates to existing apps, not just new releases, which is why the number is so high.
+
+It’s also worth noting that the company rejected 441,972 submissions based on legal grounds. 186,195 apps got removed from the App Store last year, while the company fielded 1,474 takedown requests.
+
+Advertisement
+
+What about downloads? Well, Apple says that iPhone, iPad, and Mac users downloaded an average of 747,873,877 apps every week. That will seem far less impressive when you hear that they also redownloaded an average of 1,539, 274,266 apps every week.
+
+The company did this as a result of a settlement it reached with developers in 2021
+
+Some of you may be wondering why did Apple do this? Why did the company publish its very first App Store transparency report so late in the game? Well, it’s because of the settlement it reached with App Store developers in 2021.
+
+Back then, Apple promised that it will “share meaningful statistics about the app review process, including the number of apps rejected for different reasons, the number of customer and developer accounts deactivated, objective data regarding search queries and results, and the number of apps removed from the App Store”.
+
+All in all, it’s nice to see more information about the App Store, that’s for sure. It gives us a peek behind Apple’s curtain.

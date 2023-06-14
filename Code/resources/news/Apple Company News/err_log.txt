@@ -1,0 +1,10 @@
+Article `download()` failed with HTTPSConnectionPool(host='www.defenseworld.net', port=443): Read timed out. (read timeout=7) on URL https://www.defenseworld.net/2023/06/01/connectus-wealth-llc-has-250-13-million-stock-position-in-apple-inc-nasdaqaapl.html
+--------------------------
+Article `download()` failed with HTTPSConnectionPool(host='www.defenseworld.net', port=443): Read timed out. (read timeout=7) on URL https://www.defenseworld.net/2023/06/01/apple-inc-nasdaqaapl-position-increased-by-capital-advisors-ltd-llc.html
+--------------------------
+Article `download()` failed with HTTPSConnectionPool(host='www.defenseworld.net', port=443): Read timed out. (read timeout=7) on URL https://www.defenseworld.net/2023/06/01/retirement-capital-strategies-sells-4098-shares-of-apple-inc-nasdaqaapl.html
+--------------------------
+Article `download()` failed with HTTPSConnectionPool(host='www.defenseworld.net', port=443): Read timed out. (read timeout=7) on URL https://www.defenseworld.net/2023/06/01/providence-capital-advisors-llc-increases-position-in-apple-inc-nasdaqaapl.html
+--------------------------
+Article `download()` failed with HTTPSConnectionPool(host='www.defenseworld.net', port=443): Read timed out. (read timeout=7) on URL https://www.defenseworld.net/2023/06/01/insight-2811-inc-raises-position-in-apple-inc-nasdaqaapl.html
+--------------------------

@@ -1,0 +1,28 @@
+Article `download()` failed with 403 Client Error: Forbidden for url: https://in.investing.com/news/apple-stock-down-as-analysts-cut-on-macro-headwinds-that-are-hurting-iphone-demand-432SI-3654178 on URL https://in.investing.com/news/apple-stock-down-as-analysts-cut-on-macro-headwinds-that-are-hurting-iphone-demand-432SI-3654178
+--------------------------
+Article `download()` failed with HTTPSConnectionPool(host='www.defenseworld.net', port=443): Read timed out. (read timeout=7) on URL https://www.defenseworld.net/2023/05/22/cottonwood-capital-advisors-llc-reduces-position-in-apple-inc-nasdaqaapl.html
+--------------------------
+Article `download()` failed with HTTPSConnectionPool(host='www.defenseworld.net', port=443): Read timed out. (read timeout=7) on URL https://www.defenseworld.net/2023/05/22/apple-inc-nasdaqaapl-stock-holdings-boosted-by-mattern-capital-management-llc.html
+--------------------------
+Article `download()` failed with HTTPSConnectionPool(host='www.defenseworld.net', port=443): Read timed out. (read timeout=7) on URL https://www.defenseworld.net/2023/05/22/apple-inc-nasdaqaapl-holdings-decreased-by-parsec-financial-management-inc.html
+--------------------------
+Article `download()` failed with HTTPSConnectionPool(host='www.defenseworld.net', port=443): Read timed out. (read timeout=7) on URL https://www.defenseworld.net/2023/05/22/b-t-capital-management-dba-alpha-capital-management-has-10-03-million-stock-position-in-apple-inc-nasdaqaapl.html
+--------------------------
+Article `download()` failed with HTTPSConnectionPool(host='www.defenseworld.net', port=443): Read timed out. (read timeout=7) on URL https://www.defenseworld.net/2023/05/22/alphamark-advisors-llc-grows-stock-holdings-in-apple-inc-nasdaqaapl.html
+--------------------------
+Article `download()` failed with HTTPSConnectionPool(host='www.defenseworld.net', port=443): Read timed out. (read timeout=7) on URL https://www.defenseworld.net/2023/05/22/washington-trust-bank-has-25-46-million-holdings-in-apple-inc-nasdaqaapl.html
+--------------------------
+Article `download()` failed with 403 Client Error: Forbidden for url: https://in.investing.com/news/apple-stock-down-as-analysts-cut-on-macro-headwinds-that-are-hurting-iphone-demand-432SI-3654178 on URL https://in.investing.com/news/apple-stock-down-as-analysts-cut-on-macro-headwinds-that-are-hurting-iphone-demand-432SI-3654178
+--------------------------
+Article `download()` failed with HTTPSConnectionPool(host='www.defenseworld.net', port=443): Read timed out. (read timeout=7) on URL https://www.defenseworld.net/2023/05/22/cottonwood-capital-advisors-llc-reduces-position-in-apple-inc-nasdaqaapl.html
+--------------------------
+Article `download()` failed with HTTPSConnectionPool(host='www.defenseworld.net', port=443): Read timed out. (read timeout=7) on URL https://www.defenseworld.net/2023/05/22/banque-pictet-cie-sa-boosts-stock-position-in-apple-inc-nasdaqaapl.html
+--------------------------
+Article `download()` failed with HTTPSConnectionPool(host='www.defenseworld.net', port=443): Read timed out. (read timeout=7) on URL https://www.defenseworld.net/2023/05/22/apple-inc-nasdaqaapl-stock-holdings-boosted-by-mattern-capital-management-llc.html
+--------------------------
+Article `download()` failed with HTTPSConnectionPool(host='www.defenseworld.net', port=443): Read timed out. (read timeout=7) on URL https://www.defenseworld.net/2023/05/22/b-t-capital-management-dba-alpha-capital-management-has-10-03-million-stock-position-in-apple-inc-nasdaqaapl.html
+--------------------------
+Article `download()` failed with HTTPSConnectionPool(host='www.defenseworld.net', port=443): Read timed out. (read timeout=7) on URL https://www.defenseworld.net/2023/05/22/alphamark-advisors-llc-grows-stock-holdings-in-apple-inc-nasdaqaapl.html
+--------------------------
+Article `download()` failed with HTTPSConnectionPool(host='www.defenseworld.net', port=443): Read timed out. (read timeout=7) on URL https://www.defenseworld.net/2023/05/22/washington-trust-bank-has-25-46-million-holdings-in-apple-inc-nasdaqaapl.html
+--------------------------

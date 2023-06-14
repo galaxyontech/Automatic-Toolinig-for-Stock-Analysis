@@ -1,0 +1,101 @@
+{
+    "0.txt": {
+        "title": "",
+        "media": "",
+        "date": "",
+        "datetime": NaN,
+        "desc": "",
+        "link": "https://support.google.com/websearch/answer/106230?hl=en-DE",
+        "img": ""
+    },
+    "1.txt": {
+        "title": "Apple stock down as analysts cut on macro headwinds that are hurting iPhone demand By Investing.com",
+        "media": "Investing.com",
+        "date": "5 mins ago",
+        "datetime": "2023-05-22 14:02:10.957420",
+        "desc": "Apple (NASDAQ:AAPL) shares trade 1% lower in pre-open Monday after Loop Capital analysts downgraded to Hold from Buy. The analysts' price target implies an...",
+        "link": "https://in.investing.com/news/apple-stock-down-as-analysts-cut-on-macro-headwinds-that-are-hurting-iphone-demand-432SI-3654178",
+        "img": "data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+    },
+    "2.txt": {
+        "title": "Cottonwood Capital Advisors LLC Reduces Position in Apple Inc. (NASDAQ:AAPL)",
+        "media": "Defense World",
+        "date": "2 hours ago",
+        "datetime": "2023-05-22 12:07:14.259663",
+        "desc": "Read Cottonwood Capital Advisors LLC Reduces Position in Apple Inc. (NASDAQ:AAPL) at Defense World.",
+        "link": "https://www.defenseworld.net/2023/05/22/cottonwood-capital-advisors-llc-reduces-position-in-apple-inc-nasdaqaapl.html",
+        "img": "data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+    },
+    "3.txt": {
+        "title": "Banque Pictet & Cie SA Boosts Stock Position in Apple Inc. (NASDAQ:AAPL)",
+        "media": "Defense World",
+        "date": "2 hours ago",
+        "datetime": "2023-05-22 12:07:14.298090",
+        "desc": "Banque Pictet & Cie SA raised its holdings in shares of Apple Inc. (NASDAQ:AAPL \u2013 Get Rating) by 3.1% during the 4th quarter, according to the company in...",
+        "link": "https://www.defenseworld.net/2023/05/22/banque-pictet-cie-sa-boosts-stock-position-in-apple-inc-nasdaqaapl.html",
+        "img": "data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+    },
+    "4.txt": {
+        "title": "Apple Inc. (NASDAQ:AAPL) Stock Holdings Boosted by Mattern Capital Management LLC",
+        "media": "Defense World",
+        "date": "2 hours ago",
+        "datetime": "2023-05-22 12:07:14.332162",
+        "desc": "Read Apple Inc. (NASDAQ:AAPL) Stock Holdings Boosted by Mattern Capital Management LLC at Defense World.",
+        "link": "https://www.defenseworld.net/2023/05/22/apple-inc-nasdaqaapl-stock-holdings-boosted-by-mattern-capital-management-llc.html",
+        "img": "data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+    },
+    "5.txt": {
+        "title": "Apple Inc. (NASDAQ:AAPL) Holdings Decreased by Parsec Financial Management Inc.",
+        "media": "Defense World",
+        "date": "2 hours ago",
+        "datetime": "2023-05-22 12:07:14.366340",
+        "desc": "Parsec Financial Management Inc. trimmed its position in shares of Apple Inc. (NASDAQ:AAPL \u2013 Get Rating) by 1.8% during the fourth quarter, according to the...",
+        "link": "https://www.defenseworld.net/2023/05/22/apple-inc-nasdaqaapl-holdings-decreased-by-parsec-financial-management-inc.html",
+        "img": "data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+    },
+    "6.txt": {
+        "title": "B & T Capital Management DBA Alpha Capital Management Has $10.03 Million Stock Position in Apple Inc. (NASDAQ ...",
+        "media": "Defense World",
+        "date": "3 hours ago",
+        "datetime": "2023-05-22 11:07:14.404516",
+        "desc": "Read B & T Capital Management DBA Alpha Capital Management Has $10.03 Million Stock Position in Apple Inc. (NASDAQ:AAPL) at Defense World.",
+        "link": "https://www.defenseworld.net/2023/05/22/b-t-capital-management-dba-alpha-capital-management-has-10-03-million-stock-position-in-apple-inc-nasdaqaapl.html",
+        "img": "data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+    },
+    "7.txt": {
+        "title": "AlphaMark Advisors LLC Grows Stock Holdings in Apple Inc. (NASDAQ:AAPL)",
+        "media": "Defense World",
+        "date": "3 hours ago",
+        "datetime": "2023-05-22 11:07:14.440785",
+        "desc": "Read AlphaMark Advisors LLC Grows Stock Holdings in Apple Inc. (NASDAQ:AAPL) at Defense World.",
+        "link": "https://www.defenseworld.net/2023/05/22/alphamark-advisors-llc-grows-stock-holdings-in-apple-inc-nasdaqaapl.html",
+        "img": "data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+    },
+    "8.txt": {
+        "title": "Washington Trust Bank Has $25.46 Million Holdings in Apple Inc. (NASDAQ:AAPL)",
+        "media": "Defense World",
+        "date": "3 hours ago",
+        "datetime": "2023-05-22 11:07:14.474650",
+        "desc": "Read Washington Trust Bank Has $25.46 Million Holdings in Apple Inc. (NASDAQ:AAPL) at Defense World.",
+        "link": "https://www.defenseworld.net/2023/05/22/washington-trust-bank-has-25-46-million-holdings-in-apple-inc-nasdaqaapl.html",
+        "img": "data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+    },
+    "9.txt": {
+        "title": "Apple Stake Boosted By Power Corp Of Canada While JPMorgan, Alphabet Class A Stocks Get Dropped In Q1 ...",
+        "media": "Benzinga",
+        "date": "4 hours ago",
+        "datetime": "2023-05-22 10:07:14.508399",
+        "desc": "The Power Corporation of Canada, a management and holding company that focuses on financial services in North America, Europe and Asia, has significantly...",
+        "link": "https://www.benzinga.com/markets/equities/23/05/32502718/apple-stake-boosted-by-power-corp-of-canada-while-jpmorgan-alphabet-class-a-stocks-get-dropped-i",
+        "img": "data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+    },
+    "10.txt": {
+        "title": "Better Buy: Apple vs. Nvidia",
+        "media": "The Motley Fool",
+        "date": "9 hours ago",
+        "datetime": "2023-05-22 05:07:14.512111",
+        "desc": "Apple and Nvidia lead multiple high-growth markets, making their stocks attractive investments right now.",
+        "link": "https://www.fool.com/investing/2023/05/21/better-buy-apple-vs-nvidia/",
+        "img": "data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+    }
+}
