@@ -1,33 +1,25 @@
-With autocomplete, you can enter a Google search more quickly. You can turn off or remove certain autocomplete predictions or report issues with your predictions. Learn more about autocomplete.
+Certified Advisory Corp, an investment advisory firm with a strong reputation for delivering top-notch results, recently announced that it has once again boosted its holdings in Apple Inc. (NASDAQ:AAPL). This latest move comes after the firm purchased an additional 3,985 shares of the tech giant during Q4 2021.
+Apple has long been one of the most sought-after stocks in the market and the fact that Certified Advisory Corp continues to see it as a strong contender is a clear indication of its bright future. As of its most recent SEC filing, Certified Advisory Corp’s total holdings in Apple were valued at $11,926,000.
+The announcement comes on the heels of Apple’s impressive Q2 2021 earnings report released earlier this month. During the quarter, Apple beat analysts’ expectations with $1.52 earnings per share (EPS), compared to consensus estimates of $1.44. Additionally, Apple reported revenue of $94.84 billion for the quarter, exceeding analyst expectations of $92.84 billion.
+Despite these positive developments, some analysts have noted potential challenges for Apple in the coming months. For example, Bank of America increased their price target for AAPL from $176 to $190 but reiterated their concern that global semiconductor shortages could affect supply chains and limit production capacity.
+Meanwhile, UBS Group lowered their rating from “buy” to “neutral,” fueling concerns among investors about whether Apple will be able to maintain growth in light of potential volatility in global markets.
+Overall though, industry experts remain bullish on AAPL’s outlook and forecasts suggest that it will continue to deliver consistent returns throughout 2021 and beyond. Indeed, according to data from Bloomberg.com collated by traders around frequent trading dashboard , analysts have offered an average rating of “moderate buy” along with a consensus target price of $177.40.
+Ultimately then, while uncertainties about short-term performance are always possible with any stock, the future looks bright for Apple and investors who continue to see the upside in this tech giant can trust that firms like Certified Advisory Corp will deliver the results they need.
 
-Turn off Personal results
-
-Important: When Personal results are off, you won't get personalized predictions or recommendations based on your past searches. If you have Web & App Activity on, your Search history is saved in your Google Account and used to give you more personalized experiences in other Google services. Learn how to find & control your Web & App Activity.
-
-If you’re signed in to your Google Account and have Personal results turned on, you might also get personalized predictions and recommendations in Google Search. If you don’t want to get these predictions and recommendations, turn off Personal results.
-
-Turn off trending searches
-
-If you don’t want to get trending searches in the Google app, you can change your settings.
-
-Important: When you turn off trending searches, it turns off in the Google app on that device. If you want to turn off trending searches on google.com, update your settings in a mobile browser.
-
-To turn off trending searches: On your Android phone or tablet, open the Google app . At the top right, tap your Profile picture or initial Settings General. Turn off Autocomplete with trending searches.
-
-Turn off trending searches from a mobile browser On your Android phone or tablet, open a browser like Chrome or Firefox. Go to google.com. At the top left, tap Menu Settings. Under "Autocomplete with trending searches," select Do not show popular searches.
-
-Turn off related searches
-
-If you’re signed out of your Google Account when you search on Google, you may find recommendations related to your recent search. If you don’t want to get these, turn off Search customization.
-
-On your Android phone or tablet, open the Google app . At the top right, tap your Profile picture or initial Settings General Search customization. Turn off Search customization.
-
-Report a prediction
-
-While we do our best to prevent inappropriate predictions, we don’t always get it right. If you think a prediction violates one of the autocomplete policies, you can report it: On your Android phone or tablet, go to google.com or open the Google app . In the search bar, type a search. Predictions show up below the search bar. Long-press a prediction. Tap Report this. We’ll analyze your feedback, but we don’t automatically remove reported predictions.
-
-I have a legal issue with the prediction
-
-To request removal of content you think is unlawful, fill out this form.
-
-Related resources
+Apple Inc. AAPL Strong Buy Updated on: 15/06/2023 Financial Health Very Healthy Debt to equity ratio: Strong Buy Price to earnings ratio: Strong Buy Price to book ratio: Strong Buy DCF: Strong Buy ROE: Strong Buy Show more Price Target Current $186.01 Concensus $180.94 Low $110.00 Median $180.00 High $250.00 Show more Social Sentiments 0
+Twitter Sentiment 0
+Stocktwits Sentiment Show more Analyst Ratings Analyst / firm Rating Laura Martin
+Needham Buy Toni Sacconaghi
+Bernstein Sell Michael Ng
+Goldman Sachs Buy Martin Yang
+Oppenheimer Buy Dan Ives
+Wedbush Buy Show more
+Institutional Investors Increasing Stake in Apple Inc. (NASDAQ: AAPL) Amidst Strong Market Capitalization and Dividend Yield Growth
+Apple Inc. (NASDAQ: AAPL) has been experiencing an influx of investments from institutional investors in the recent past. Among them, Cassia Capital Partners LLC increased its stake in shares of Apple by a notable 24.3% during the fourth quarter to own a total of 5,009 shares worth $651,000. This purchase was followed by Starfox Financial Services LLC, which bought 21.5% more Apple shares in the same period and now owns 1,900 shares valued at $247,000. Alongside these two investors, Hoxton Planning & Management LLC also purchased a new position in Apple during the quarter for roughly $3,148,000.
+Furthermore, Factory Mutual Insurance Co., which already owned sizable holdings in Apple stock prior to this quarter based on reports from SEC filings earlier this year, boosted its position by an additional 5.2% to own a total of 2,340,129 shares currently worth over $304 million as per recent data.
+Blueshift Asset Management LLC entered the game quite recently and bought a new stake in Apple during Q3 last year worth $563k – driving up hedge funds and institutional investors’ ownership to around 57.6% of all AAPL stock as of current data.
+Despite these happening developments among institutional investors buying into AAPL or increasing their position size in the company’s shares; NASDAQ listed Apple dropped slightly by -0.03%, reaching a trading price at $183.95 on Thursday’s opening bell.
+The tech giant’s market capitalization stands firm today at an enormous value hovering around the staggering sum of $2.89 trillion – well-deserved for its continual innovation prowess and uninterrupted revenue growth even throughout difficult times posed throughout history.
+Likewise, Apple’s dividend yield has gone up from previous quarterly payments with respect to each share as per their statement declaring dividends paid out last May 18th: Investors who held stock shares by record on May 15th were allotted a dividend of $0.24 per share, indicating an increase from its previous payout of $0.23. Annualized yield now stands at $0.96, with an actual dividend payout ratio of 16.30% attributable to the company’s Board of Directors’ approval.
+Apple has initiated a buyback program aiming to purchase up to $90 billion worth of AAPL shares that were outstanding and replace them through open market buying – which is indicative of Apple’s board members believing that their shares are currently undervalued, ultimately beneficial for investors such as those mentioned previously who will profit from such instances.
+Despite the current market climate, analysts believe that AAPL can continue to be a strong performer in the tech space going forward thanks to hallmark features like strong cash reserves and continual innovation integral pillars for sustained success in this arena.

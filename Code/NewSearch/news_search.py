@@ -22,7 +22,7 @@ class NewSearch:
 
         Args:
             key_words (Collection(string)): a collection of string, or list of string, or anything iterable in python with string inside
-            
+
         """
         start_time = time.time()
         logging.basicConfig(
@@ -65,13 +65,15 @@ class NewSearch:
         googlenews.search(word)
         results = googlenews.result()  # list
 
-        # export the downloaded news into local file system -> to be deprecated into export into a database 
+        # export the downloaded news into local file system -> to be deprecated into export into a database
         self.news_export(results=results, word=word)
 
     def news_export(self, results: List[Any], word: str) -> None:
         directory = "../resources/news/" + word
-        meta_data_path = os.path.join(directory, "meta_data.json")  # path to meta_data
-        errpath = os.path.join(directory, "err_log.txt")  # path to store err message
+        meta_data_path = os.path.join(
+            directory, "meta_data.json")  # path to meta_data
+        # path to store err message
+        errpath = os.path.join(directory, "err_log.txt")
         meta_data = {}
 
         # if the file directory does not exist
@@ -82,8 +84,10 @@ class NewSearch:
             result_date = results[i]["datetime"]
             if result_date:
                 if not isinstance(result_date, float):
-                    results[i]["datetime"] = result_date.strftime('%Y-%m-%d %H:%M:%S.%f')
-            filename = str(i) + ".txt"
+                    results[i]["datetime"] = result_date.strftime(
+                        '%Y-%m-%d %H:%M:%S.%f')
+            filename = str(i) + ".json"
+
             meta_data[filename] = results[i]
 
             filepath = os.path.join(directory, filename)
@@ -93,14 +97,13 @@ class NewSearch:
                 article = Article(url)
                 article.download()
                 article.parse()
-
-            except Exception as e:  # if not, write the error message into a err_log file (append writing)
+            # if not, write the error message into a err_log file (append writing)
+            except Exception as e:
                 with open(errpath, "a") as f:
                     f.write(str(e) + "\n" + "--------------------------" + "\n")
                     continue  # if not exist we kip this round
-            with open(filepath, "w") as file:
-                file.write(article.text)
-
+            raw_input_datasource = article.text
+            formatted_input_datasource = "\n".join(raw_input_datasource.split("\n\n"))  # remove the extra newlines
             input_data_instance = New(title=results[i]["title"],
                                       media=results[i]["media"],
                                       datetime=results[i]["datetime"],
@@ -108,7 +111,14 @@ class NewSearch:
                                       link=results[i]["link"],
                                       image_link=results[i]["img"],
                                       text=article.text,
+                                      company = word.split(" ")[0] # hard coded
                                       )
+            with open(filepath, "w") as file:
+                passage_output = {"datasource_id": input_data_instance.get_news_id(),
+                                  "data": formatted_input_datasource}
+                json.dump(passage_output, file, indent=4)
+
+            meta_data[filename]["news_id"] = input_data_instance.get_news_id()
             print(input_data_instance)
 
         with open(meta_data_path, "w") as f:

@@ -10,10 +10,10 @@ class New:
     description: str
     link: str
     image_link: str
-    article: Article
+    company:str
 
     def __init__(self, title=None, media=None, date=None, datetime=None, description=None, link=None, image_link=None,
-                 text=None, article=None) -> None:
+                 text=None, company= None) -> None:
         self.title = title
         self.media = media
         self.date = date
@@ -21,8 +21,16 @@ class New:
         self.description = description
         self.link = link
         self.image_link = image_link
-        self.news_id = ""
+        self.company = company
+        self.news_id = self.generate_news_id() # create a unique news id for the news
         self.text = text
+
+    def generate_news_id(self):
+        info = [self.title, self.media, self.datetime, self.company]
+        return "@".join(info)
+
+    def get_news_id(self):
+        return self.news_id
 
     def get_article_representation(self) -> Article:
         """

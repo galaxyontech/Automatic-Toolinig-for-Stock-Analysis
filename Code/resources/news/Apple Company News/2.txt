@@ -1,71 +1,23 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-NEW YORK, June 1 (Reuters) - Meta Platforms (META.O) CEO Mark Zuckerberg on Thursday revealed the company's next generation mixed reality headset, the Quest 3, as the company braces for Apple to potentially reshape a nascent market that Meta has dominated so far.
-
-Priced starting at $499, the device will be 40% thinner than the company's previous headset and feature color mixed reality, which combines augmented and virtual reality (AR/VR) elements, Zuckerberg said in an Instagram post ahead of Meta's annual gaming conference.
-
-loading
-
-Meta also said it would lower the prices of its existing Quest 2 headsets, while adding performance upgrades to those devices aimed at delivering a smoother user experience.
-
-The Quest 3 will have a new Qualcomm chipset with twice the graphics performance as the Quest 2, Zuckerberg said. He said the device would launch in the autumn and promised more details at the company's annual AR/VR conference on Sept. 27.
-
-Zuckerberg's announcement came less than a week before tech rival Apple (AAPL.O) was expected to unveil its first mixed reality device, a high-end product with a price point around $3,000, according to a Bloomberg report.
-
-Meta's Quest 2 and Quest Pro devices comprised nearly 80% of the 8.8 million virtual reality headsets sold in 2022, according to an estimate by market research firm IDC.
-
-Far behind in second place at 10% market share was the Pico device by Chinese-owned ByteDance, which also owns social media competitor TikTok.
-
-Still, despite its dominance, Meta has struggled to sell its vision of an immersive "metaverse" of interconnected virtual worlds and expand the market for its devices beyond the niche of the gaming community.
-
-The company classified eight of the 10 most popular apps on its Quest store as being in the gaming category, according to a Reuters count.
-
-After a burst of interest during the pandemic, headset sales tumbled in the first quarter of this year, with the overall AR/VR headset market declining 54.4% year over year.
-
-Revenue from Meta's Reality Labs segments, which includes headset sales, declined 50% in the most recent quarter compared to the year prior.
-
-That puts Meta well behind on a trajectory once imagined for the unit. One Meta executive predicted in 2018 that the company's metaverse would reach 100 million hardware units within a decade, half of which would be Meta devices.
-
-"Between now and the end of the year, there will be a slowness," said Jitesh Ubrani, a research manager who tracks the virtual reality market at IDC. "VR to date has been largely built around gaming. And I think gaming will still remain the dominant use case even going forward."
-
-Even in the gaming market Meta is threatened by Sony, which dominates the console market with the PS5. Sony released its own second-generation headset dedicated to games, the PS VR2, in February and has significant developer support.
-
-Meta appeared to be leaning into that market for now by pairing its Quest 3 announcement with its annual gaming showcase, where the company teased new ways users could slay vampires and outwit evil robots in upcoming releases.
-
-In March, Meta cut the prices of most of its existing Quest headsets in hopes of stirring demand, after raising the price of its entry-level Quest 2 128 GB version in July 2022.
-
-Its high-end Meta Quest Pro now retails for about $1,000, down from a launch price of $1,500, and the Quest 2's 256 GB version now starts at about $430, down from $500.
-
-The company said on Thursday that it would lower the Quest 2 prices once again starting June 4, with the entry-level device dropping back to its original price tag of $300 and the 256-GB version falling to $350.
-
-To engage a more mass audience, Zuckerberg in recent years has made overtures to the fitness world, posting videos of himself using Meta devices while fencing with Olympic medalists and trading punches with mixed martial arts fighters.
-
-He won a battle with U.S. antitrust regulators to acquire the app developer behind VR fitness app Supernatural. During the trial, government lawyers showed evidence that Meta executives had identified fitness as a way to expand VR use beyond its existing fan base of mostly young male gamers.
-
-Zuckerberg also built out productivity tools to market the Quest headsets as virtual offices, including a partnership with Microsoft to bring apps like Teams and Outlook to the devices.
-
-Reporting by Katie Paul; Additional reporting by Yuvraj Malik and Stephen Nellis; Editing by Lisa Shumaker
-
-
-
-
-
-
-
-
-
-
-
-Our Standards: The Thomson Reuters Trust Principles.
+Legendary investor Warren Buffett, an ardent supporter of Apple Inc. stock, has highlighted the company’s exceptionally devoted customer base as a key factor in his admiration. According to Buffett, iPhone users display such unwavering brand loyalty that they would not permanently part ways with their phones even if offered $10,000.
+Don't Miss: Why Silicon Valley Elites Are Betting On This Startups Vision For Re-Uniting American Families
+Berkshire Hathaway Inc., the investment conglomerate Buffett leads, holds the largest equity investment in Apple, owning 915 million shares valued at $151 billion. This investment constitutes approximately 6% of Berkshire’s portfolio. Apple represents around 44% of Berkshire’s overall equity portfolio, which amounts to $344 billion, according to CNBC’s Berkshire portfolio tracker.
+During an interview with CNBC's Squawk Box, the 92-year-old Buffett drew a contrast between the loyalty of iPhone users and the behavior of automobile buyers.
+“If you’re an Apple user and somebody offers you $10,000 but the only provision is that they’ll take away your iPhone and you’ll never be able to buy another, you’re not gonna take it,” he said.
+Drawing a contrasting analogy, Buffett emphasized how consumers’ behavior might differ when faced with a similar proposition involving a different product.
+“If they tell you if you buy another Ford car, they’ll give you $10,000 not to do that, you’ll take the $10,000, and you’ll buy a Chevy instead,” he said
+To stay updated with top startup news & investments, sign up for Benzinga's Startup Investing & Equity Crowdfunding Newsletter
+Buffett’s perspective on Apple extends beyond its status as a technology company. He also considers it a consumer-oriented business. His initial interest in purchasing Apple stock in 2016 stemmed from observing his grandchildren’s fascination with their iPhones during visits to an Omaha Dairy Queen, a company owned by Berkshire.
+Buffett went on to highlight the remarkable nature of Apple’s success, crediting it to the groundbreaking products pioneered by the late Steve Jobs, with CEO Tim Cook successfully steering the company to new heights.
+“Tim Cook has managed that company in an extraordinary way,” Buffett said.
+The astute investor drew a parallel to his own business ventures, citing the vast value of Burlington Northern Santa Fe, a prominent railroad company, and Berkshire Hathaway Energy, a substantial utility business. In Buffett’s eyes, these enterprises hold comparable significance to Apple, demonstrating the scale and potential of the tech giant.
+Some may question the decision to concentrate such a significant portion of Berkshire Hathaway’s portfolio in one stock, particularly when it comes to Apple. But Buffett swiftly dismisses any doubts, emphasizing the unparalleled nature of Apple’s business.
+See Next: New Battery Beats Tesla’s Lithium-Ion By A Mile With 50% Cheaper Price Tag, 99% Recyclable and Three Times Longer Lifespan
+“We can’t develop a business like that,” he said. Hence, Berkshire Hathaway has acquired a substantial stake in Apple, a position that continues to grow incrementally each year because of Apple’s own stock buybacks.
+Buffett’s profound appreciation for Apple is undeniable. In his own words, Buffett sums up his sentiment by stating, “It’s a wonderful business so we own a lot of it.”
+Buffett’s History of Success
+Buffett is considered one of the best investors in modern history, and his record speaks for itself. From being an early investor in GEICO (now owned by Berkshire Hathaway) to becoming an early investor in American Express Company, Buffett has had a long history of success. One of his keys to success has been finding companies with a lot of potential and then investing for the long term. The barriers to investing like Buffett are constantly being broken down. Thanks to changes in federal law, investors can even own shares in startups and private companies on platforms like StartEngine, including investing in StartEngine itself.
+See more on startup investing from Benzinga.
+Don't miss real-time alerts on your stocks - join Benzinga Pro for free! Try the tool that will help you invest smarter, faster, and better.
+This article Warren Buffett's $151 Billion Gamble: Customers Won't Trade Their Apple iPhones For $10,000, And Here's Why originally appeared on Benzinga.com
+.
+© 2023 Benzinga.com. Benzinga does not provide investment advice. All rights reserved.
