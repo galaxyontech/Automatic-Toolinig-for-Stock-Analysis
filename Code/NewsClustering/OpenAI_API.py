@@ -21,7 +21,7 @@ class OpenAISummarization:
 
     def message_summarization(self) -> Dict[str,str]:
         """
-        This function return the summarize version of the input datasource.
+        This function return the summarization version of the input datasource.
         :return:
         """
         completion = openai.ChatCompletion.create(
