@@ -3,7 +3,7 @@ from typing import Dict
 
 import openai
 
-openai.api_key = "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"
+openai.api_key = "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"
 
 
 class OpenAISummarization:
@@ -24,6 +24,7 @@ class OpenAISummarization:
         This function return the summarization version of the input datasource.
         :return:
         """
+
         completion = openai.ChatCompletion.create(
             model=self.model_name,
             messages=[

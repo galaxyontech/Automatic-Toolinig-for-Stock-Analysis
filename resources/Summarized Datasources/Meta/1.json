@@ -1,0 +1,4 @@
+{
+    "ds_id": "Meta says its new speech-generating AI tool is too dangerous to release@TechRadar@2023-06-19 13:23:04.101160@Meta",
+    "data_content": "Meta has developed an AI tool called 'Voicebox', which can generate speech in six European languages. According to Meta, Voicebox is unique in that it can complete tasks beyond its original purpose. The AI model can produce reasonably accurate text-to-speech replications of a person\u2019s voice using a sample audio file as short as two seconds, which could be potentially destructive if used maliciously. Despite the potential for misuse, AI speech generation could benefit those who are mute or have communication barriers, provide real-time translations, and improve recorded speech. Meta is not releasing Voicebox to the public due to the potential for misuse and unintended harm, but is publishing a research paper and detailing a classifier tool that can identify Voicebox-generated speech from real human speech."
+}

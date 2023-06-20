@@ -26,7 +26,7 @@ class New:
         self.text = text
 
     def generate_news_id(self):
-        info = [self.title, self.media, self.datetime, self.company]
+        info = [self.title, self.media, str(self.datetime), self.company]
         return "@".join(info)
 
     def get_news_id(self):

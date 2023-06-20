@@ -1,0 +1,4 @@
+{
+    "Here's the Median Salary At Big Tech Companies Like Amazon and Google@TheStreet@2023-06-19 18:42:09.712917@Meta": "Article `download()` failed with 403 Client Error: Forbidden for url: https://www.thestreet.com/employment/median-salary-big-tech-companies-amazon-google-meta on URL https://www.thestreet.com/employment/median-salary-big-tech-companies-amazon-google-meta",
+    "Meta Delays Its AI-Speech Generator, Acknowledging That It's a Great Tool For Scammers@Business 2 Community@2023-06-19 17:42:10.619106@Meta": "Article `download()` failed with 403 Client Error: Forbidden for url: https://www.business2community.com/tech-news/meta-delays-its-ai-speech-generator-acknowledging-that-its-a-great-tool-for-scammers-02709338 on URL https://www.business2community.com/tech-news/meta-delays-its-ai-speech-generator-acknowledging-that-its-a-great-tool-for-scammers-02709338"
+}
