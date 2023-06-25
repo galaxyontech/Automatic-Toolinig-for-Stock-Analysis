@@ -1,3 +1,4 @@
 {
-    "d": "du"
+    "ds_id": "Meta Introduces Generative AI Model \u2018Voicebox\u2019 To Revolutionise Field of Speech Generation@Fresh Headline@2023-06-18 22:42:09.726920@Meta",
+    "data_content": "Meta has created a new AI model called 'Voicebox' which is designed to revolutionize speech generation. Voicebox uses a new approach to learn from raw audio and an accompanying transcription, and unlike other models, it can modify any part of a given sample. Voicebox generates high-quality audio clips, and supports speech synthesis in six languages as well as a range of other functions, including noise removal, style conversion and diverse sample generation. The model can be used to generate portions of an audio recording without re-creating the entire recording, making it versatile and highly effective in a variety of speech generation tasks."
 }

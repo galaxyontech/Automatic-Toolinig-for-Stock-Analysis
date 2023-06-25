@@ -29,6 +29,7 @@ class NewSearch:
 
         def search_and_clean(word):
             self.news_download(word)
+
         for key_word in self.keywords:
             t = threading.Thread(target=search_and_clean, args=(key_word,))
             thread_list.append(t)
@@ -52,7 +53,7 @@ class NewSearch:
             key_word (string): the key word for searching in google news
         """
 
-        related_key_words = ["","company","stock"]
+        related_key_words = ["", "company", "stock"]
         dedupped_results = {}
         # get search result as list named results
         for w in related_key_words:
@@ -60,7 +61,7 @@ class NewSearch:
             googlenews.search(word + " " + w)
             results = googlenews.result(sort=True)  # list
             for r in results:
-                dedupped_results[r['link'] ]= r
+                dedupped_results[r['link']] = r
         print(dedupped_results)
         print(len(dedupped_results))
         # export the downloaded news into local file system -> to be deprecated into export into a database
@@ -124,7 +125,6 @@ class NewSearch:
                                       text=article.text,
                                       company=word.split(" ")[0]  # hard coded
                                       )
-            print(input_data_instance)
             if current_exception:
                 error_meta_data[input_data_instance.news_id] = current_exception
 
