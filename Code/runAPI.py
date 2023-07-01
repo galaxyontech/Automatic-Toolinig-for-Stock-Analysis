@@ -3,6 +3,7 @@ from NewSearch.news_search import NewSearch
 
 app = Flask(__name__)
 
+
 @app.route('/')
 def home():
     return "OK"
