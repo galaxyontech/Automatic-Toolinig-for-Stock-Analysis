@@ -8,6 +8,7 @@ import os
 import json
 import logging
 from Code.News.news import New
+from newspaper import Config
 
 
 class NewSearch:
@@ -33,7 +34,6 @@ class NewSearch:
         for key_word in self.keywords:
             t = threading.Thread(target=search_and_clean, args=(key_word,))
             thread_list.append(t)
-        print("JI")
 
         for i in range(0, len(self.keywords)):
             thread_list[i].start()
@@ -57,19 +57,19 @@ class NewSearch:
         dedupped_results = {}
         # get search result as list named results
         for w in related_key_words:
-            googlenews = GoogleNews()
+            googlenews = GoogleNews(period='7d')
             googlenews.search(word + " " + w)
             results = googlenews.result(sort=True)  # list
             for r in results:
-                dedupped_results[r['link']] = r
-        print(dedupped_results)
-        print(len(dedupped_results))
+                if "," not in r['date']:  # remove failed results
+                    dedupped_results[r['link']] = r
+                    print(r)
         # export the downloaded news into local file system -> to be deprecated into export into a database
         final_results = []
         for i in dedupped_results.values():
             final_results.append(i)
-        print(final_results)
-        self.news_export(results=final_results, word=word)
+
+        # self.news_export(results=final_results, word=word)
 
     def news_export(self, results: List[Any], word: str) -> None:
         """
@@ -90,7 +90,6 @@ class NewSearch:
             os.makedirs(directory)
 
         for i in range(0, len(results)):
-            print(i)
             result_date = results[i]["datetime"]
             if result_date:
                 if not isinstance(result_date, float):
@@ -103,10 +102,14 @@ class NewSearch:
             meta_data[filename] = results[i]
 
             filepath = os.path.join(directory, filename)
-            current_exception = None
-            url = results[i]["link"]
+            current_exception: str = ""
+            url: str = results[i]["link"]
+            user_agent: str = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'
+            config = Config()
+            config.request_timeout = 50
+            config.browser_user_agent = user_agent
             try:  # try to scrape news url, if succeeded, write it into a file
-                article = Article(url)
+                article = Article(url, config=config)
                 article.download()
                 article.parse()
             # if not, write the error message into an err_log file (append writing)
@@ -114,23 +117,23 @@ class NewSearch:
                 current_exception = str(e)
 
             assert article, "No article found for any giving url"
-            raw_input_datasource = article.text
-            formatted_input_datasource = "\n".join(raw_input_datasource.split("\n\n"))  # remove the extra newlines
-            input_data_instance = New(title=results[i]["title"],
-                                      media=results[i]["media"],
-                                      datetime=results[i]["datetime"],
-                                      description=results[i]["desc"],
-                                      link=results[i]["link"],
-                                      image_link=results[i]["img"],
-                                      text=article.text,
-                                      company=word.split(" ")[0]  # hard coded
-                                      )
+            raw_input_datasource: str = article.text
+            formatted_input_datasource: str = "\n".join(raw_input_datasource.split("\n\n"))  # remove the extra newlines
+            input_data_instance: New = New(title=results[i]["title"],
+                                           media=results[i]["media"],
+                                           datetime=results[i]["datetime"],
+                                           description=results[i]["desc"],
+                                           link=results[i]["link"],
+                                           image_link=results[i]["img"],
+                                           text=article.text,
+                                           company=word.split(" ")[0]  # hard coded
+                                           )
             if current_exception:
                 error_meta_data[input_data_instance.news_id] = current_exception
 
             with open(filepath, "w") as file:
                 passage_output = {"datasource_id": input_data_instance.get_news_id(),
-                                  "data": raw_input_datasource}
+                                  "data": formatted_input_datasource}
                 json.dump(passage_output, file, indent=4)
 
             meta_data[filename]["news_id"] = input_data_instance.get_news_id()

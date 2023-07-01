@@ -3,11 +3,11 @@ from time import time
 from typing import List, Dict, Any
 import os
 import numpy as np
-from kneed import KneeLocator
+from sentence_transformers import SentenceTransformer
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.decomposition import PCA
 from sklearn.metrics import silhouette_score
-from Code.NewsClustering.OpenAI_API import OpenAISummarization
+from open_api import OpenAISummarization
 import matplotlib.pyplot as plt
 from sklearn.cluster import KMeans
 from transformers import pipeline
@@ -25,12 +25,24 @@ SUMMARIZATION_PATH = os.path.join(path.parent.parent.absolute(), os.sep.join(SUM
 # info -> phone number:str, number of stocks:int, recent searches, membership information..... sql/mysql: structured
 # data
 
+def generate_tfidf_based_matrix(documentations: List[str], matrix_type: str):
+    if matrix_type == "tf_idf":
+        tfidf_vectorizer: TfidfVectorizer = TfidfVectorizer(  # tfidf
+            stop_words="english",
+        )
+        return tfidf_vectorizer.fit_transform(documentations)
+    embedder = SentenceTransformer('all-mpnet-base-v2')
+    bert_based_corpus_embedding = embedder.encode(documentations)
+    return bert_based_corpus_embedding
+
+
 class NewsClustering:
     document_matrix: Any
     summarized_content: List[str]
     ds_id_to_data_txt: Dict[str, str]
     ds_id_list: List[str]
     document_raw_txt: List[str]
+    company_tag: str
 
     def __init__(self):
         # populate the raw datasource content list and datasource id list
@@ -43,38 +55,30 @@ class NewsClustering:
 
     def create_file_path_storage(self):
         company_tag = self.ds_id_list[0].split("@")[-1]
+        self.company_tag = company_tag
         if not os.path.exists(SUMMARIZATION_PATH):
             os.makedirs(SUMMARIZATION_PATH)
+
+
 
     def read_raw_text_documents(self):
         """
         Read from raw text documents from the storage to populate the id->raw_document and list of raw documents
         :return:
         """
-        raw_datasource_content_lists = {}
-        datasource_id_list = []
         num_of_files = len(os.listdir(DIRECTORY_PATH))
         for i in range(num_of_files - 2):
-            path = DIRECTORY_PATH + "/" + str(i) + ".json"
-            data_path = os.path.join(DIRECTORY_PATH, path)
-            if "json" in data_path and "meta_data.json" not in data_path:
-                print(data_path)
+            raw_data_path = DIRECTORY_PATH + "/" + str(i) + ".json"  # create raw_data_path
+            data_path = os.path.join(DIRECTORY_PATH, raw_data_path)
+            if "json" in data_path and "meta_data.json" not in data_path:  # extract json documents and remove
+                # meta_data_json
                 with open(data_path, 'r+') as datasource_input:
                     data = json.load(datasource_input)
                     datasource_id = data["datasource_id"]
                     data_text = data["data"]
-                    raw_datasource_content_lists[datasource_id] = data_text
-                    datasource_id_list.append(datasource_id)
+                    self.ds_id_to_data_txt[datasource_id] = data_text
+                    self.ds_id_list.append(datasource_id)
                     self.document_raw_txt.append(data_text)
-
-        self.ds_id_to_data_txt = raw_datasource_content_lists
-        self.ds_id_list = datasource_id_list
-        for i in self.ds_id_list:
-            print(i)
-
-        # print(self.raw_datasource_content_lists)
-
-        # print(self.datasource_id_list)
 
     def generate_summarized_content(self):
         """
@@ -84,12 +88,11 @@ class NewsClustering:
         before_sum_time = time()
         summarization_counter: int = 0
 
-        for i in range(1):
+        for i in range(len(self.ds_id_list)):
             current_doc: str = self.ds_id_to_data_txt[self.ds_id_list[i]]  # get the current document
             raw_data_path: str = str(i) + ".json"
             summarized_path_to_be_stored: str = os.path.join(SUMMARIZATION_PATH, raw_data_path)
-            print(summarized_path_to_be_stored)
-            message: str = "Can you Summarize the following paragraph\n" + current_doc
+            message: str = "Summarize the following paragraph with focus on " + "Meta:\n" + current_doc
 
             # Connect to OpenAPI Instance
             api_instance: OpenAISummarization = OpenAISummarization(model_name="gpt-3.5-turbo", message=message)
@@ -112,18 +115,7 @@ class NewsClustering:
         after_sum_time = time()
         print("Summarization Time", after_sum_time - before_sum_time)
 
-    def document_clustering_k_means_in_memory(self):
-        """
-        Faster Access to documents, id list, for optimization,
-        :return:
-        """
-        vectorizer = TfidfVectorizer(
-            stop_words="english",
-        )
-        t0 = time()
-        X_tfidf = vectorizer.fit_transform(self.summarized_content)
-
-    def document_clustering_k_means_in_storage(self):
+    def populate_summarized_content(self):
         num_of_files = len(os.listdir(SUMMARIZATION_PATH))
         for i in range(num_of_files):
             summarization_path = os.path.join(SUMMARIZATION_PATH, str(i) + ".json")
@@ -132,22 +124,39 @@ class NewsClustering:
                 summarized_json = json.load(storage)
                 self.summarized_content.append(summarized_json["data_content"].strip())
 
-        vectorizer = TfidfVectorizer(  # tfidf
-            stop_words="english",
-        )
-        X_tfidf = vectorizer.fit_transform(self.summarized_content)  # tfidf
-        # self.k_means_clustering_visualization(X_tfidf)
-        self.document_matrix = X_tfidf
-
+    def k_means_clustering(self):
+        """
+        k means clustering method of the summarized document matrix, return the clustered label back
+        :return: return the clustering label back
+        """
         best_k = self.k_means_get_best_score()
-        km = KMeans(n_clusters=best_k, init="k-means++", random_state=1, n_init = 10)
-        km.fit(self.document_matrix)
-        document_clusters = {}
+        km = KMeans(n_clusters=best_k, init="k-means++", random_state=1, n_init=10)
+        km.fit(self.document_matrix)  # This matrix contains list of summarizations can be tfidf or bert based
+        return km.labels_
+
+    def document_clustering_k_means_in_storage(self):
+        """
+        Document Clustering using kmeans. The documents are extract from storage, currently it is using the file
+        system as storage format, will be changed into databse
+        :return: None
+        """
+
+        self.populate_summarized_content()
+        # create document matrix
+        document_matrix: TfidfVectorizer = generate_tfidf_based_matrix(self.document_raw_txt, matrix_type="bert")
+
+        # skip the visualization step self.k_means_clustering_visualization(document matrix )
+
+        self.document_matrix = document_matrix
+        print(self.document_matrix)
+        k_means_label_result: List[int] = self.k_means_clustering()
+        document_clusters: Dict[int, List[int]] = {}
+        print(k_means_label_result)
         """
         Mapped Each document to the cluster 
         """
         for i in range(len(self.summarized_content)):
-            document_label = km.labels_[i]
+            document_label = k_means_label_result[i]
             if document_label not in document_clusters:
                 document_clusters[document_label] = [i]
             else:
@@ -158,33 +167,37 @@ class NewsClustering:
         """
         Create Summarization Engine for these results. 
         """
-        summarizer = pipeline("summarization")
+        summarizer = pipeline("summarization", model="facebook/bart-large-cnn")
         for cluster, doc_labels in document_clusters.items():
             documents = ""
             for label in doc_labels:
-                doc_body = self.summarized_content[label]
+                doc_body: str = self.summarized_content[label]
                 documents += doc_body
                 documents += "\n"
 
-            print(documents)
-            length_of_token = len(documents.split(" "))
-            max_length = min(length_of_token, 300)
-            min_length = max(int(length_of_token / 10), 1)
+            # print(documents)
+            length_of_token: int = len(documents.split(" "))
+            max_length: int = min(length_of_token, 300)
+            min_length: int = max(int(length_of_token / 10), 1)
             generated_summary_of_clusters = summarizer(documents, max_length=max_length, min_length=min_length,
                                                        do_sample=False)
-            print(generated_summary_of_clusters)
+            # print(generated_summary_of_clusters)
+        # self.matrix_visualization(document_matrix)
 
     @staticmethod
-    def k_means_clustering_visualization(input_matrix: any):
+    def matrix_visualization(input_matrix: any):
 
         reduced_data = PCA(n_components=2).fit_transform(np.asarray(input_matrix.todense()))
-
+        print(reduced_data)
         # print reduced_data
         fig, ax = plt.subplots()
+        data_point_markings = [i for i in range(len(reduced_data))]
         for index, instance in enumerate(reduced_data):
             # print instance, index, labels[index]
             pca_comp_1, pca_comp_2 = reduced_data[index]
             ax.scatter(pca_comp_1, pca_comp_2)
+        for i in range(len(reduced_data)):
+            ax.annotate(data_point_markings[i], (reduced_data[i][0], reduced_data[i][1]))
         plt.show()
 
     def k_means_get_best_score(self):

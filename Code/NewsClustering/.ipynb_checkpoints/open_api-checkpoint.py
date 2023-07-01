@@ -3,7 +3,7 @@ from typing import Dict
 
 import openai
 
-openai.api_key = ""
+openai.api_key = "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"
 
 
 class OpenAISummarization:
