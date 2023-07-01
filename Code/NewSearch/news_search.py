@@ -10,6 +10,8 @@ import logging
 from Code.News.news import New
 
 
+
+
 class NewSearch:
     keywords: List[str]
 
@@ -23,12 +25,14 @@ class NewSearch:
             key_words (Collection(string)): a collection of string, or list of string, or anything iterable in python with string inside
 
         """
+        print("in the search_key_words")
         start_time = time.time()
         thread_list = []
         """ for multi threading cases"""
 
         def search_and_clean(word):
             self.news_download(word)
+
         for key_word in self.keywords:
             t = threading.Thread(target=search_and_clean, args=(key_word,))
             thread_list.append(t)
@@ -51,17 +55,22 @@ class NewSearch:
         Args:
             key_word (string): the key word for searching in google news
         """
+        print("in the news_download")
 
-        related_key_words = ["","company","stock"]
+        related_key_words = ["", "company", "stock"]
         dedupped_results = {}
         # get search result as list named results
         for w in related_key_words:
             googlenews = GoogleNews()
+            print("before search")
             googlenews.search(word + " " + w)
+            print("after search")
             results = googlenews.result(sort=True)  # list
+            print(f"results: ---{results}")
             for r in results:
-                dedupped_results[r['link'] ]= r
-        print(dedupped_results)
+                print(f"r: {r}")
+                dedupped_results[r['link']] = r
+        print(f"dedupped_results: {dedupped_results}")
         print(len(dedupped_results))
         # export the downloaded news into local file system -> to be deprecated into export into a database
         final_results = []

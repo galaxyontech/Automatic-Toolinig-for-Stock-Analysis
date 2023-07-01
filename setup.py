@@ -1,0 +1,50 @@
+from setuptools import find_packages, setup
+
+setup(
+    name="sas",
+    version="0.1.0",
+    description="sas",
+    license="unlicense",
+    packages=find_packages(),
+    zip_safe=False,
+    entry_points={
+        "console_scripts": [
+            "run_api=Code.RESTfulAPIs.app:main",
+            # "pcat=mlprelude.scripts.pcat:main",
+            # "grid_search_candle=mlprelude.scripts.grid_search_candle:main",
+            # "grid_search_nodejs=mlprelude.scripts.grid_search_nodejs:main",
+            # "backtest_single_decision=mlprelude.scripts.backtest_single_decision:main",
+            # "realtime_decision=mlprelude.scripts.realtime_decision:main",
+        ]
+    },
+    install_requires=[
+        "numpy",
+        "pandas",
+        "flask",
+        "newspaper3k",
+        # "torch",
+        # "torchvision",
+        # "sortedcontainers",
+        # "click",
+        # "ray==2.3.0",
+        # "pymongo==3.11.0",
+        # "protobuf",
+        # "xarray",
+        # "h5netcdf",
+        # "hyperopt",
+        # "matplotlib",
+        # "joblib==0.16.0",
+        # "requests==2.26",
+        # "python-dateutil==2.8.1",
+        # "plotly",
+        # "pyarrow",
+        # "pyyaml",
+        # "quantstats",
+        # "seaborn",
+        # "python-dotenv",
+        # "pyslidingwindow @ git+https://git@github.com/quantsatoshi/py-sliding-window#main",
+        # "pytalibstream @ git+https://git@github.com/QuantSatoshi/py-talib-stream.git#master",
+        # "qsdecisions @ git+ssh://git@github.com/QuantSatoshi/qs-decisions.git#9d387a0c2f9c6906a338902bf05c579bb3451545"
+        # "typing-extensions==4.4",
+    ],
+)
