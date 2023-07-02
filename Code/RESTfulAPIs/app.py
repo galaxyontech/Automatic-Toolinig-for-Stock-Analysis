@@ -5,8 +5,11 @@ app = Flask(__name__)
 
 @app.route('/news', methods=['GET'])
 def get_news():
-    # your code to fetch and return news here
-    pass
+    return "news api called"
+
+
+def main():
+    app.run(debug=True)
 
 
 if __name__ == '__main__':
