@@ -3,7 +3,7 @@ from typing import Dict
 
 import openai
 
-openai.api_key = ""
+openai.api_key =""
 openai.organization = "org-ideK3N64Khrqw3eIqi1GBpqz"
 
 
@@ -20,7 +20,7 @@ class OpenAISummarization:
         self.message = message
         self.model_name = model_name
 
-    def message_summarization(self) -> Dict[str,str]:
+    def message_summarization(self) -> str:
         """
         This function return the summarization version of the input datasource.
         :return:
@@ -32,7 +32,7 @@ class OpenAISummarization:
                 {"role": "user", "content": self.message}
             ]
         )
-        return completion.choices[0].message
+        return completion.choices[0].message["content"]
 
 
 

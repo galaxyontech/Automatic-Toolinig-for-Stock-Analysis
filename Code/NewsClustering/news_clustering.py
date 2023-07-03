@@ -59,8 +59,6 @@ class NewsClustering:
         if not os.path.exists(SUMMARIZATION_PATH):
             os.makedirs(SUMMARIZATION_PATH)
 
-
-
     def read_raw_text_documents(self):
         """
         Read from raw text documents from the storage to populate the id->raw_document and list of raw documents
@@ -117,11 +115,14 @@ class NewsClustering:
 
     def populate_summarized_content(self):
         num_of_files = len(os.listdir(SUMMARIZATION_PATH))
+        summarized_data = {}
         for i in range(num_of_files):
             summarization_path = os.path.join(SUMMARIZATION_PATH, str(i) + ".json")
             storage_path = os.path.join(SUMMARIZATION_PATH, summarization_path)
             with open(storage_path, 'r') as storage:
                 summarized_json = json.load(storage)
+
+                summarized_data[summarized_json['ds_id']] = summarized_json['data_content']
                 self.summarized_content.append(summarized_json["data_content"].strip())
 
     def k_means_clustering(self):

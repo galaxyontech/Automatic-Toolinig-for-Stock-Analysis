@@ -9,6 +9,7 @@ import json
 import logging
 from Code.News.news import New
 from newspaper import Config
+from Code.Database.Firebase import FireBase
 
 
 class NewSearch:
@@ -53,23 +54,25 @@ class NewSearch:
             key_word (string): the key word for searching in google news
         """
 
-        related_key_words = ["", "company", "stock"]
+        related_key_words = ["", "stock"]
         dedupped_results = {}
         # get search result as list named results
         for w in related_key_words:
-            googlenews = GoogleNews(period='7d')
+            googlenews = GoogleNews(period='1d')
             googlenews.search(word + " " + w)
             results = googlenews.result(sort=True)  # list
             for r in results:
-                if "," not in r['date']:  # remove failed results
-                    dedupped_results[r['link']] = r
-                    print(r)
+                dedupped_results[r['link']] = r
+            googlenews.clear()
         # export the downloaded news into local file system -> to be deprecated into export into a database
         final_results = []
         for i in dedupped_results.values():
             final_results.append(i)
-
-        # self.news_export(results=final_results, word=word)
+        sorted_final_results = sorted(final_results, key=lambda x: x['datetime'], reverse=True)
+        print("----------")
+        for i in sorted_final_results:
+            print(i)
+        self.news_export(results=sorted_final_results, word=word)
 
     def news_export(self, results: List[Any], word: str) -> None:
         """
@@ -79,32 +82,32 @@ class NewSearch:
         :return:
         """
         directory = "../resources/news/" + word
-        meta_data_path = os.path.join(
-            directory, "meta_data.json")  # path to meta_data
         errpath = os.path.join(directory, "err_log.txt")
         meta_data = {}
         error_meta_data = {}
+        news_list = []  # list of internal news instance to be summarized using openai api
 
         # if the file directory does not exist
-        if not os.path.exists(directory):
-            os.makedirs(directory)
 
         for i in range(0, len(results)):
             result_date = results[i]["datetime"]
+
+            # format datetime
             if result_date:
                 if not isinstance(result_date, float):
                     results[i]["datetime"] = result_date.strftime(
                         '%Y-%m-%d %H:%M:%S.%f')
             else:
                 results[i]["datetime"] = time.time()
+
+            # download file from the url
             filename = str(i) + ".json"
-
-            meta_data[filename] = results[i]
-
             filepath = os.path.join(directory, filename)
+            article = None
             current_exception: str = ""
             url: str = results[i]["link"]
-            user_agent: str = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'
+            user_agent: str = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) ' \
+                              'Chrome/50.0.2661.102 Safari/537.36 '
             config = Config()
             config.request_timeout = 50
             config.browser_user_agent = user_agent
@@ -115,8 +118,9 @@ class NewSearch:
             # if not, write the error message into an err_log file (append writing)
             except Exception as e:
                 current_exception = str(e)
-
             assert article, "No article found for any giving url"
+
+            # generate into internal news instance
             raw_input_datasource: str = article.text
             formatted_input_datasource: str = "\n".join(raw_input_datasource.split("\n\n"))  # remove the extra newlines
             input_data_instance: New = New(title=results[i]["title"],
@@ -128,19 +132,29 @@ class NewSearch:
                                            text=article.text,
                                            company=word.split(" ")[0]  # hard coded
                                            )
-            if current_exception:
-                error_meta_data[input_data_instance.news_id] = current_exception
+
+            news_list.append(input_data_instance)
 
             with open(filepath, "w") as file:
                 passage_output = {"datasource_id": input_data_instance.get_news_id(),
                                   "data": formatted_input_datasource}
                 json.dump(passage_output, file, indent=4)
 
-            meta_data[filename]["news_id"] = input_data_instance.get_news_id()
+            if current_exception:
+                error_meta_data[input_data_instance.news_id] = current_exception
+            meta_data[input_data_instance.get_news_id()] = results[i]
+            meta_data[input_data_instance.get_news_id()]["news_id"] = input_data_instance.get_news_id()
 
-        # dumping metadata information for both news and exceptions
-        with open(meta_data_path, "w") as f:
-            json.dump(meta_data, f, indent=4)
+        # dumping metadata information into the database
+        metadata_insert = FireBase()
+        metadata_insert.insert_metadata_data(metadata=meta_data, company_tag=word)
+
+
+        # dumping news instance into api summarization workflow and insert into the database
+        from Code.Data.data import Data
+        news_data = Data(data_body=news_list)
+        news_data.summarize_news_data()
+
 
         with open(errpath, 'w') as error_input:
             json.dump(error_meta_data, error_input, indent=4)
